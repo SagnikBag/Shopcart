@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'
+import Title from '../component/Title';
 
 const Cart = () => {
   const {products,currency,cartItems} = useContext(ShopContext);
@@ -20,7 +21,7 @@ const Cart = () => {
         }
       }
     }
-    setCartData[tempData]
+    setCartData(tempData)
   },[cartItems])
   return (
     <div className=' border-t pt14'>
