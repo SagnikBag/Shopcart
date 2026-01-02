@@ -7,11 +7,11 @@ import NewsLetterBox from '../component/NewsLetterBox'
 const Home = () => {
   return (
     <div>
-      <Hero/>
-      <LatestCollection/>
-      <BestSeller/>
-      <OurPolicy/>
-      <NewsLetterBox/>
+       <Hero/>
+       <LatestCollection/>
+       <BestSeller/>
+       <OurPolicy/>
+       <NewsLetterBox/>
       
     </div>
   )
